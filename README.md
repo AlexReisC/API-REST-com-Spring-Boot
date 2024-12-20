@@ -18,7 +18,7 @@ Este é um projeto de exemplo de uma API RESTful para gerenciar produtos, constr
 
 2. Configure o banco de dados PostgreSQL:
     - Crie um banco de dados chamado `products_api`.
-    - Atualize as credenciais do banco de dados no arquivo [application.properties](http://_vscodecontentref_/0) se necessário.
+    - Atualize as credenciais do banco de dados no arquivo [application.properties](src/main/resources/application.properties) se necessário.
 
 3. Compile e execute o projeto:
     ```sh
@@ -126,8 +126,8 @@ Este é um projeto de exemplo de uma API RESTful para gerenciar produtos, constr
 
 ## Estrutura do Projeto
 
-- [springboot](http://_vscodecontentref_/1): Contém o código principal da aplicação.
-- [resources](http://_vscodecontentref_/2): Contém os recursos da aplicação, como o arquivo de configuração [application.properties](http://_vscodecontentref_/3).
+- [springboot](src/main/java/com/example/springboot/): Contém o código principal da aplicação.
+- [resources](src/main/resources/): Contém os recursos da aplicação, como o arquivo de configuração [application.properties](src/main/resources/application.properties).
 
 ## Dependências
 
